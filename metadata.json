@@ -1,0 +1,6 @@
+{
+  "name": "FreshKeep",
+  "description": "Smart food inventory and expiration date tracker with multi-storage zones, expiry alerts, and freshness analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

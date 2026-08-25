@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Refrigerator Silhouette and Fresh Leaf in Safe Zone (66dp centered) -->
+    <group
+        android:translateX="0"
+        android:translateY="0">
+        <!-- Refrigerator Body -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M37,28 C34.8,28 33,29.8 33,32 L33,76 C33,78.2 34.8,80 37,80 L71,80 C73.2,80 75,78.2 75,76 L75,32 C75,29.8 73.2,28 71,28 Z" />
+        <!-- Refrigerator Divider Line -->
+        <path
+            android:fillColor="#0D9488"
+            android:pathData="M33,48 L75,48 L75,51 L33,51 Z" />
+        <!-- Freezer Door Handle -->
+        <path
+            android:fillColor="#0D9488"
+            android:pathData="M37,36 C37,35.4 37.4,35 38,35 L40,35 C40.6,35 41,35.4 41,36 L41,42 C41,42.6 40.6,43 40,43 L38,43 C37.4,43 37,42.6 37,42 Z" />
+        <!-- Fridge Main Door Handle -->
+        <path
+            android:fillColor="#0D9488"
+            android:pathData="M37,56 C37,55.4 37.4,55 38,55 L40,55 C40.6,55 41,55.4 41,56 L41,66 C41,66.6 40.6,67 40,67 L38,67 C37.4,67 37,66.6 37,66 Z" />
+        <!-- Fresh Eco Leaf accent on top right -->
+        <path
+            android:fillColor="#22C55E"
+            android:pathData="M67,24 C60,24 57,28 58,34 C64,34 68,30 67,24 Z" />
+        <!-- Clock / Timer circle badge on bottom right -->
+        <path
+            android:fillColor="#F97316"
+            android:pathData="M69,67 A7,7 0 1 0 69,81 A7,7 0 1 0 69,67 Z" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M68.5,70.5 L68.5,74.5 L72,74.5 L72,73.5 L69.5,73.5 L69.5,70.5 Z" />
+    </group>
+</vector>
